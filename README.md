@@ -81,7 +81,32 @@ This new word has been added into our database:
 
 ![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/ea0292e6-592e-4220-a310-689845caf629)
 
+   - **Borrar una palabra del Ahorcado**: you will be able to delete any word.
 
+![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/26e27004-84e6-4e66-a6ac-c37559b42e6b)
+![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/bb470d29-da97-469e-a5c5-721c72fd3585)
 
+The word has been deleted fon the database:
 
-   
+![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/5427b0e8-a748-47ec-9704-d20cc2711f34)
+
+3. Back on the main menu, the "Jugar" link takes us to the game, where a random word of the database is selected and we will try and guess word by word:
+
+![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/1aac0c3e-5c60-4c95-aedf-dcbcb7022c50)
+
+![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/95b08434-8c78-4e63-ace0-888d15002273)
+
+The database will register the details of the attempts:
+
+![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/fc47b401-adff-491f-93cf-ef1706c57faa)
+
+> [!WARNING]
+> In this version, the game is not working properly yet.
+
+## Contributions
+
+Feel free to contribute to the development of the game. You can open issues to report bugs or suggest new features.
+
+## License
+
+This work is licensed under CC BY-NC-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
