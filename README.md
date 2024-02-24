@@ -8,9 +8,8 @@ In order to transform the Hangman game we already have into a web interface, we 
 
 1. [Preparation](#preparation)
 2. [The Game](#the-game)
-3. [Screenshots](#screenshots)
-4. [Contributions](#contributions)
-5. [License](#license)
+3. [Contributions](#contributions)
+4. [License](#license)
 
 ## Preparation
 
@@ -18,16 +17,18 @@ First of all, we need to configure our web server to "read" CGI interfaces. In m
 
 ![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/a9f5c97a-9b19-4f59-846d-744c530e30e1)
 > [!TIP]
-> I left my configuration file on this repository in the case you have any problem
+> I left my configuration file on this repository in the case you have any problem.
 
 ![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/4fd1250f-3476-4739-8030-a19af519d56f)
+
 ![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/26bb1c5a-3c83-4c1a-838f-e8591bcdff40)
+
 ![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/6ceb50cb-1266-4dc7-b27d-17315aed644b)
 
 > [!IMPORTANT]
 > Make sure to restart Apache after doing any changes on its configuration file!
 
-Now we can add the Python files of the Hangman game into the folder Apache24/cgi-bin
+Now we can add the Python files of the Hangman game into the folder Apache24/cgi-bin:
 
 ![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/78554608-03b9-4a92-86b7-ba22b2416107)
 
@@ -42,9 +43,10 @@ To access the game, we need to search [localhost/cgi-bin-index.py](localhost/cgi
 
 ![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/d3609090-8591-4409-82c0-5033961507a8)
 
-But first, we need to register ourselves into the data base trhough the link "[Regístrate](localhost/cgi-bin/registro.py)"
+But first, we need to register ourselves into the data base trhough the link "[Regístrate](localhost/cgi-bin/registro.py)".
 
 ![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/1548b5d6-f899-4ccc-863e-c6c295e0ec1a)
+
 ![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/ff50d740-9828-433d-baf6-057233c6ae8b)
 
 The user has been added to our database:
@@ -71,6 +73,7 @@ Now we can sign-in into our game with this new user and access the main manu:
    - **Añadir una palabra al Ahorcado**: where we will be able to add a word into the game:
      
 ![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/60be5405-9071-4140-a024-697a18beeefa)
+
 ![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/b8a9d0fe-1c44-4763-b88d-83f46f996119)
 
 This new word has been added into our database:
@@ -84,6 +87,7 @@ This new word has been added into our database:
    - **Borrar una palabra del Ahorcado**: you will be able to delete any word.
 
 ![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/26e27004-84e6-4e66-a6ac-c37559b42e6b)
+
 ![image](https://github.com/SergioPinilla04/Ahorcado_web/assets/113448338/bb470d29-da97-469e-a5c5-721c72fd3585)
 
 The word has been deleted fon the database:
